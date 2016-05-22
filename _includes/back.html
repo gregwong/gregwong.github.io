@@ -1,5 +1,5 @@
 <nav class="main-nav">
-    {% if page.url != "/index.html" %}
-        <a style="float:left;" href="{{ site.baseurl }}"> <span class="arrow-left">←</span> Home </a>
+    {% if page.url != site.baseurl %}
+        <a href="{{ site.baseurl }}"> <span class="arrow-left">←</span> Home </a>
     {% endif %}
 </nav>
